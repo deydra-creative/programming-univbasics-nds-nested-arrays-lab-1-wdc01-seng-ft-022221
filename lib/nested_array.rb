@@ -39,7 +39,7 @@ def sorted_matrix
 
 def matrix_lookup(matrix, row, column)
   matrix_lookup = [
-   assembled_matrix[1][1]
+   assembled_matrix(1,1)
    ]
  end
   # Given any matrix (array of arrays), a row index and a column index, 
