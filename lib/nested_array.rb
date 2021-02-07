@@ -39,7 +39,7 @@ def sorted_matrix
 
 def matrix_lookup(matrix, row, column)
  matrix_lookup = [
-   CONVENTIONAL_PRODUCE[1][1]
+   CONVENTIONAL_PRODUCE[0][1]
    ]
  end
   # Given any matrix (array of arrays), a row index and a column index, 
@@ -47,7 +47,7 @@ def matrix_lookup(matrix, row, column)
 
 def matrix_update(matrix, row, column, new_value)
   matrix_update = [
-    
+    assembled_matrix[0][1][2]
     ]
   end
   # Given any matrix (array of arrays), a row index and a column index, 
