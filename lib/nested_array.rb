@@ -37,9 +37,8 @@ def matrix_lookup(matrix, row, column)
   # Return the matrix's content at that row and and column
 
 def matrix_update(matrix, row, column, new_value)
-  matrix_update = [
-    assembled_matrix[0][1][2]
-    ]
+  matrix_update = assembled_matrix[1][1][2]
+    
   end
   # Given any matrix (array of arrays), a row index and a column index, 
   # Update the matrix location at that row and column to have the value of new_value
